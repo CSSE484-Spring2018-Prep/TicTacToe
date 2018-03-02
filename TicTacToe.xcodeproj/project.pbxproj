@@ -12,6 +12,9 @@
 		FDFCEC362049989000221EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFCEC342049989000221EE1 /* Main.storyboard */; };
 		FDFCEC382049989000221EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFCEC372049989000221EE1 /* Assets.xcassets */; };
 		FDFCEC3B2049989000221EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFCEC392049989000221EE1 /* LaunchScreen.storyboard */; };
+		FDFCEC462049990200221EE1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFCEC432049990100221EE1 /* Icon@2x.png */; };
+		FDFCEC472049990200221EE1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFCEC442049990100221EE1 /* Icon.png */; };
+		FDFCEC482049990200221EE1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFCEC452049990200221EE1 /* Icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FDFCEC372049989000221EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDFCEC3A2049989000221EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDFCEC3C2049989000221EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFCEC432049990100221EE1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FDFCEC442049990100221EE1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FDFCEC452049990200221EE1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		FDFCEC2F2049989000221EE1 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				FDFCEC42204998F200221EE1 /* supporting */,
 				FDFCEC302049989000221EE1 /* AppDelegate.swift */,
 				FDFCEC322049989000221EE1 /* ViewController.swift */,
 				FDFCEC342049989000221EE1 /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				FDFCEC3C2049989000221EE1 /* Info.plist */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		FDFCEC42204998F200221EE1 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FDFCEC452049990200221EE1 /* Icon-72.png */,
+				FDFCEC442049990100221EE1 /* Icon.png */,
+				FDFCEC432049990100221EE1 /* Icon@2x.png */,
+			);
+			path = supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDFCEC3B2049989000221EE1 /* LaunchScreen.storyboard in Resources */,
+				FDFCEC462049990200221EE1 /* Icon@2x.png in Resources */,
+				FDFCEC472049990200221EE1 /* Icon.png in Resources */,
 				FDFCEC382049989000221EE1 /* Assets.xcassets in Resources */,
 				FDFCEC362049989000221EE1 /* Main.storyboard in Resources */,
+				FDFCEC482049990200221EE1 /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
